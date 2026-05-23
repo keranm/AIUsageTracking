@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D462B20C0977DDCDC3E07B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B3369646D38677DC0595E5 /* AppDelegate.swift */; };
+		1225A3DEB274FFE7B767F48A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290DBC7B400F703AE05EF851 /* SettingsView.swift */; };
+		12AF1246BE7AE83F68458C84 /* ClaudePulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993CD93A509BF4A20FB7722A /* ClaudePulseApp.swift */; };
+		1C61AC4734B46696BF8BF1ED /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F1EE3508476783013105C4 /* PopoverView.swift */; };
+		2ACE35A8BF0D8405ECA856F9 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ECB423EDBC38A5F45602F8 /* SettingsStore.swift */; };
+		4D51DA67C4394CCFC52F78C3 /* UsageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1108987EF18B78558A7F71F2 /* UsageState.swift */; };
+		51BC032416B99DB687CEDEDC /* UsageMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2C651D83755A939E01BBA /* UsageMetricsView.swift */; };
+		5703F61A4F72E53188A53927 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA800009FF6191BE0C42265 /* NotificationManager.swift */; };
+		727BEEC01FB6298D87E38302 /* UsageCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A00073EC5C49DAA722390 /* UsageCalculator.swift */; };
+		736BBC1422D2A1D5BC7728BD /* MenuActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7545A763E90CBFD4CAA496 /* MenuActionsView.swift */; };
+		791B3D06EF4D2C0AA8A8AFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6478E9CA934C3D9FEBFC486F /* Assets.xcassets */; };
+		79C2756B717B96ADE13A0DF7 /* FileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66D22A8F86033F68918B831 /* FileWatcher.swift */; };
+		9FCDAC1656AE48508EEBFCE1 /* UsageProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04FB232950992CE9EAD5A0 /* UsageProgressBar.swift */; };
+		AA7C6E21EFDFF54F78083D25 /* MenuBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B69BD9292F63825E1C1AB7 /* MenuBarIcon.swift */; };
+		C0F037F41E0AA006BDAD701F /* JSONLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FED87DFF948393C07396B41 /* JSONLParser.swift */; };
+		DD96F3BF9F1D701143C0C582 /* GuidanceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D23E17565004A7B5789433 /* GuidanceTextView.swift */; };
+		DDECF4F19A9CC36C05B215E8 /* UsageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939A36051AFE32CFCEC9B09 /* UsageEngine.swift */; };
+		FA6E1A816AC67BB34946FCDD /* PopoverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF29068D242630B14FC28F /* PopoverHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0939A36051AFE32CFCEC9B09 /* UsageEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageEngine.swift; sourceTree = "<group>"; };
+		1108987EF18B78558A7F71F2 /* UsageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageState.swift; sourceTree = "<group>"; };
+		290DBC7B400F703AE05EF851 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2B7545A763E90CBFD4CAA496 /* MenuActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuActionsView.swift; sourceTree = "<group>"; };
+		2FED87DFF948393C07396B41 /* JSONLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLParser.swift; sourceTree = "<group>"; };
+		3F9CCF8846136567FA5F8C58 /* ClaudePulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClaudePulse.entitlements; sourceTree = "<group>"; };
+		55ECB423EDBC38A5F45602F8 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		6478E9CA934C3D9FEBFC486F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D23E17565004A7B5789433 /* GuidanceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceTextView.swift; sourceTree = "<group>"; };
+		77F1EE3508476783013105C4 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		7E3A00073EC5C49DAA722390 /* UsageCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCalculator.swift; sourceTree = "<group>"; };
+		8508D1D9AF5E45D643B521DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8BDE377545FE88A1BA34DD66 /* ClaudePulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaudePulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F04FB232950992CE9EAD5A0 /* UsageProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageProgressBar.swift; sourceTree = "<group>"; };
+		993CD93A509BF4A20FB7722A /* ClaudePulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudePulseApp.swift; sourceTree = "<group>"; };
+		9FDF29068D242630B14FC28F /* PopoverHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverHeaderView.swift; sourceTree = "<group>"; };
+		A66D22A8F86033F68918B831 /* FileWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWatcher.swift; sourceTree = "<group>"; };
+		B1B69BD9292F63825E1C1AB7 /* MenuBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIcon.swift; sourceTree = "<group>"; };
+		C4B2C651D83755A939E01BBA /* UsageMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageMetricsView.swift; sourceTree = "<group>"; };
+		E0B3369646D38677DC0595E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECA800009FF6191BE0C42265 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		238789B57E7BDE78F8745E20 = {
+			isa = PBXGroup;
+			children = (
+				C1CC226C8F75D7AB0A4F42F2 /* ClaudePulse */,
+				A08CCE2BDB3DF95672DB069C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3076F612809A11AB9609744E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A66D22A8F86033F68918B831 /* FileWatcher.swift */,
+				2FED87DFF948393C07396B41 /* JSONLParser.swift */,
+				7E3A00073EC5C49DAA722390 /* UsageCalculator.swift */,
+				0939A36051AFE32CFCEC9B09 /* UsageEngine.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		34682D8EE8DBABF2CB8E0BAE /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				ECA800009FF6191BE0C42265 /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		396E26FDFACAAC8F86FEDFD6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				67D23E17565004A7B5789433 /* GuidanceTextView.swift */,
+				2B7545A763E90CBFD4CAA496 /* MenuActionsView.swift */,
+				B1B69BD9292F63825E1C1AB7 /* MenuBarIcon.swift */,
+				9FDF29068D242630B14FC28F /* PopoverHeaderView.swift */,
+				77F1EE3508476783013105C4 /* PopoverView.swift */,
+				C4B2C651D83755A939E01BBA /* UsageMetricsView.swift */,
+				8F04FB232950992CE9EAD5A0 /* UsageProgressBar.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3EA61AC1BC263F801E41279C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1108987EF18B78558A7F71F2 /* UsageState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F7EFE06FECB6456825012A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E0B3369646D38677DC0595E5 /* AppDelegate.swift */,
+				993CD93A509BF4A20FB7722A /* ClaudePulseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A08CCE2BDB3DF95672DB069C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE377545FE88A1BA34DD66 /* ClaudePulse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18006D68341671B4DB929ED /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				55ECB423EDBC38A5F45602F8 /* SettingsStore.swift */,
+				290DBC7B400F703AE05EF851 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C1CC226C8F75D7AB0A4F42F2 /* ClaudePulse */ = {
+			isa = PBXGroup;
+			children = (
+				6478E9CA934C3D9FEBFC486F /* Assets.xcassets */,
+				3F9CCF8846136567FA5F8C58 /* ClaudePulse.entitlements */,
+				8508D1D9AF5E45D643B521DA /* Info.plist */,
+				7F7EFE06FECB6456825012A8 /* App */,
+				3076F612809A11AB9609744E /* Core */,
+				3EA61AC1BC263F801E41279C /* Models */,
+				34682D8EE8DBABF2CB8E0BAE /* Notifications */,
+				B18006D68341671B4DB929ED /* Settings */,
+				396E26FDFACAAC8F86FEDFD6 /* UI */,
+			);
+			path = ClaudePulse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B5D35DE3ACB49F9E3D9F1B2 /* ClaudePulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A689676573D251E14779C51E /* Build configuration list for PBXNativeTarget "ClaudePulse" */;
+			buildPhases = (
+				4E899D76178A4AEB9675A133 /* Sources */,
+				2D2EC33FE2338467B33EA831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClaudePulse;
+			packageProductDependencies = (
+			);
+			productName = ClaudePulse;
+			productReference = 8BDE377545FE88A1BA34DD66 /* ClaudePulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07224EDF0D9D0FA4154F5A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0B5D35DE3ACB49F9E3D9F1B2 = {
+						DevelopmentTeam = AUEPCDGA5G;
+					};
+				};
+			};
+			buildConfigurationList = 2ED7389864490ACE9F5FE3B7 /* Build configuration list for PBXProject "ClaudePulse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 238789B57E7BDE78F8745E20;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A08CCE2BDB3DF95672DB069C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B5D35DE3ACB49F9E3D9F1B2 /* ClaudePulse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2EC33FE2338467B33EA831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791B3D06EF4D2C0AA8A8AFA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E899D76178A4AEB9675A133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D462B20C0977DDCDC3E07B3 /* AppDelegate.swift in Sources */,
+				12AF1246BE7AE83F68458C84 /* ClaudePulseApp.swift in Sources */,
+				79C2756B717B96ADE13A0DF7 /* FileWatcher.swift in Sources */,
+				DD96F3BF9F1D701143C0C582 /* GuidanceTextView.swift in Sources */,
+				C0F037F41E0AA006BDAD701F /* JSONLParser.swift in Sources */,
+				736BBC1422D2A1D5BC7728BD /* MenuActionsView.swift in Sources */,
+				AA7C6E21EFDFF54F78083D25 /* MenuBarIcon.swift in Sources */,
+				5703F61A4F72E53188A53927 /* NotificationManager.swift in Sources */,
+				FA6E1A816AC67BB34946FCDD /* PopoverHeaderView.swift in Sources */,
+				1C61AC4734B46696BF8BF1ED /* PopoverView.swift in Sources */,
+				2ACE35A8BF0D8405ECA856F9 /* SettingsStore.swift in Sources */,
+				1225A3DEB274FFE7B767F48A /* SettingsView.swift in Sources */,
+				727BEEC01FB6298D87E38302 /* UsageCalculator.swift in Sources */,
+				DDECF4F19A9CC36C05B215E8 /* UsageEngine.swift in Sources */,
+				51BC032416B99DB687CEDEDC /* UsageMetricsView.swift in Sources */,
+				9FCDAC1656AE48508EEBFCE1 /* UsageProgressBar.swift in Sources */,
+				4D51DA67C4394CCFC52F78C3 /* UsageState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06FEBE27BB3F2B9BC9E8C4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 100;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AUEPCDGA5G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = "1.0-Beta";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudepulse.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		2393C458E9DB8EA4ED85DF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClaudePulse/ClaudePulse.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClaudePulse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = ClaudePulse;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		23A2C86262B4753AD163B391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 100;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AUEPCDGA5G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = "1.0-Beta";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudepulse.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B6633D3497AD5568B7A735D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClaudePulse/ClaudePulse.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClaudePulse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = ClaudePulse;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED7389864490ACE9F5FE3B7 /* Build configuration list for PBXProject "ClaudePulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A2C86262B4753AD163B391 /* Debug */,
+				06FEBE27BB3F2B9BC9E8C4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A689676573D251E14779C51E /* Build configuration list for PBXNativeTarget "ClaudePulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6633D3497AD5568B7A735D0 /* Debug */,
+				2393C458E9DB8EA4ED85DF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07224EDF0D9D0FA4154F5A82 /* Project object */;
+}
